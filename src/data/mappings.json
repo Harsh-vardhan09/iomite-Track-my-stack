@@ -10,9 +10,9 @@
     "note_cfo": "Compute is a comparable workload category, not a guaranteed cost equivalent; validate sizing, utilization and operational ownership before forecasting spend.",
     "note_security": "Compare workload isolation, identity boundaries and network controls; the compute label alone does not establish equivalent security controls.",
     "ask_iomete": "How do cluster sizing, autoscaling and workload isolation compare with our warehouse setup?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/compute-clusters/overview",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/warehouses",
+    "url_verified": true,
     "category": "compute"
   },
   {
@@ -26,8 +26,8 @@
     "note_cfo": "Analyst productivity may depend on saved-query sharing and workspace workflows; confirm the user experience before estimating transition effort.",
     "note_security": "Review how editor access, saved queries and query history are governed, including who can view or share SQL.",
     "ask_iomete": "Which SQL Editor features are available to analysts, and how are saved queries shared?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/sql-editor/worksheets",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/ui-snowsight-worksheets",
     "url_verified": false,
     "category": "bi_access"
   },
@@ -42,9 +42,9 @@
     "note_cfo": "Workflow migration can affect operating effort and service continuity; inventory schedules, dependencies and retry requirements before estimating cost.",
     "note_security": "Validate which identities run scheduled work, where credentials are stored and how execution permissions are reviewed.",
     "ask_iomete": "How should we translate task dependencies, schedules and retry behavior?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/job-orchestrator",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/tasks-intro",
+    "url_verified": true,
     "category": "orchestration"
   },
   {
@@ -58,9 +58,9 @@
     "note_cfo": "Do not assume equivalent managed-ingestion costs or service levels; compare the complete ingestion design and its operating responsibilities.",
     "note_security": "Confirm source authentication, transport protection and access controls for the proposed ingestion path; equivalence is not documented.",
     "ask_iomete": "What ingestion pattern do you recommend for our Snowpipe workloads?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/event-stream",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/data-load-snowpipe-intro",
+    "url_verified": true,
     "category": "ingestion"
   },
   {
@@ -74,9 +74,9 @@
     "note_cfo": "A replacement may require additional pipeline design and operations; quantify refresh frequency and ownership before comparing total cost.",
     "note_security": "Review job identity, data access and audit coverage for any replacement workflow; managed refresh parity is not documented.",
     "ask_iomete": "How are incremental transformations and refresh dependencies implemented?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/creating-spark-job",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-intro",
+    "url_verified": true,
     "category": "orchestration"
   },
   {
@@ -90,9 +90,9 @@
     "note_cfo": "Policy parity can affect migration scope and compliance effort; validate enforcement across every required query path.",
     "note_security": "Confirm Ranger row-filter semantics, engine coverage, policy administration and audit evidence against your access-control requirements.",
     "ask_iomete": "Which query engines enforce Ranger row filters, and how are policies tested?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-security/overview",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/security-row-intro",
+    "url_verified": true,
     "category": "security"
   },
   {
@@ -106,9 +106,9 @@
     "note_cfo": "Differences in masking policy coverage may create implementation and review work; assess sensitive-data use cases before estimating migration effort.",
     "note_security": "Validate conditional masking rules, engine enforcement and bypass protections for each sensitive column use case.",
     "ask_iomete": "How are conditional masks defined and enforced across access paths?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-security/data-masking",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/security-column-ddm-intro",
+    "url_verified": true,
     "category": "security"
   },
   {
@@ -122,9 +122,9 @@
     "note_cfo": "Historical recovery behavior and retention economics are not documented as equivalent; confirm backup and recovery requirements before sizing risk.",
     "note_security": "Historical-query retention and recovery controls are not documented as equivalent; ask how access, retention and deletion obligations are met.",
     "ask_iomete": "What recovery and historical-query options are available for our tables?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/data-time-travel",
+    "url_verified": true,
     "category": "storage_format"
   },
   {
@@ -138,8 +138,8 @@
     "note_cfo": "SSO alignment may reduce user friction, but integration and administration effort depend on your identity provider and deployment.",
     "note_security": "SAML and OIDC are listed; validate identity-provider configuration, MFA enforcement, lifecycle handling and audit requirements.",
     "ask_iomete": "Which identity providers and SSO flows are supported in our deployment?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/single-sign-on",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-idp-redirect",
     "url_verified": false,
     "category": "security"
   },
@@ -154,8 +154,8 @@
     "note_cfo": "Cross-domain data sharing may require a different operating model; clarify ownership and support effort before comparing platform costs.",
     "note_security": "Do not assume multi-domain support provides equivalent external sharing controls; validate trust boundaries, approvals and recipient access.",
     "ask_iomete": "How can teams share governed data across domains or organizations?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/deployment/architecture-deployment",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/data-sharing-intro",
     "url_verified": false,
     "category": "catalog"
   },
@@ -170,8 +170,8 @@
     "note_cfo": "Third-party data sourcing and procurement may need separate workflows; include those dependencies when estimating transition costs.",
     "note_security": "A marketplace equivalent is not documented; assess external-data onboarding, provenance and approval controls separately.",
     "ask_iomete": "Is there a supported way to discover and provision external datasets?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/data-marketplace",
     "url_verified": false,
     "category": "bi_access"
   },
@@ -186,8 +186,8 @@
     "note_cfo": "Existing Git-based delivery practices may be reusable, but confirm supported workflows to estimate developer transition effort.",
     "note_security": "Validate repository access, branch protections, secret handling and deployment permissions for the supported Git workflow.",
     "ask_iomete": "Which Git providers and development workflows are supported?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/integrations/git/git-integration",
+    "source_doc_url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/workspaces-git",
     "url_verified": false,
     "category": "orchestration"
   },
@@ -200,8 +200,8 @@
     "basis": "judgment",
     "note": "Both provide interactive compute, but cluster lifecycle and configuration may differ.",
     "ask_iomete": "How are interactive clusters configured, shared and automatically stopped?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/compute-clusters/overview",
+    "source_doc_url": "https://docs.databricks.com/aws/en/compute",
     "url_verified": false,
     "category": "compute"
   },
@@ -214,8 +214,8 @@
     "basis": "judgment",
     "note": "Both support batch Spark workloads; job submission, runtime management and scheduling may differ.",
     "ask_iomete": "How are Spark Jobs submitted, monitored and retried?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/creating-spark-job",
+    "source_doc_url": "https://docs.databricks.com/aws/en/jobs/compute",
     "url_verified": false,
     "category": "compute"
   },
@@ -228,8 +228,8 @@
     "basis": "judgment",
     "note": "Both support notebook-based work; authoring, collaboration and runtime features are not assumed to be identical.",
     "ask_iomete": "Which notebook experiences and collaboration features are supported?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/notebook/jupyter-containers",
+    "source_doc_url": "https://docs.databricks.com/aws/en/notebooks",
     "url_verified": false,
     "category": "compute"
   },
@@ -242,8 +242,8 @@
     "basis": "documented",
     "note": "Delta Lake compatibility and migration to another table format are not documented here; do not assume a drop-in equivalent.",
     "ask_iomete": "What migration path is supported for our Delta tables and transaction history?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.databricks.com/aws/en/delta",
     "url_verified": false,
     "category": "storage_format"
   },
@@ -256,9 +256,9 @@
     "basis": "judgment",
     "note": "Both provide catalog concepts, but governance scope, metadata and access semantics need comparison.",
     "ask_iomete": "How does the Data Catalog handle governance, lineage and cross-engine metadata?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-catalog/overview",
+    "source_doc_url": "https://docs.databricks.com/aws/data-governance/unity-catalog",
+    "url_verified": true,
     "category": "catalog"
   },
   {
@@ -270,8 +270,8 @@
     "basis": "documented",
     "note": "A Delta Sharing-compatible provider or protocol is not documented as an IOMETE equivalent.",
     "ask_iomete": "Which standards and patterns are supported for external data sharing?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.databricks.com/aws/en/delta-sharing/",
     "url_verified": false,
     "category": "catalog"
   },
@@ -284,8 +284,8 @@
     "basis": "judgment",
     "note": "Both orchestrate jobs and dependencies, but workflow definitions and runtime behavior differ.",
     "ask_iomete": "How do we model multi-task workflows, schedules and retries?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/job-orchestrator",
+    "source_doc_url": "https://docs.databricks.com/aws/en/jobs",
     "url_verified": false,
     "category": "orchestration"
   },
@@ -298,8 +298,8 @@
     "basis": "documented",
     "note": "A declarative managed pipeline service equivalent to DLT is not documented here.",
     "ask_iomete": "How are managed incremental and declarative pipelines built and operated?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.databricks.com/aws/en/ldp/",
     "url_verified": false,
     "category": "ingestion"
   },
@@ -312,8 +312,8 @@
     "basis": "judgment",
     "note": "Event Streams is listed, but compatibility with Spark Structured Streaming and its guarantees is not documented.",
     "ask_iomete": "Does Event Streams support our Structured Streaming sources, sinks and delivery guarantees?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/event-stream",
+    "source_doc_url": "https://docs.databricks.com/aws/en/structured-streaming/concepts",
     "url_verified": false,
     "category": "ingestion"
   },
@@ -326,8 +326,8 @@
     "basis": "judgment",
     "note": "Both provide SQL execution compute, but endpoint behavior, scaling and BI connectivity may differ.",
     "ask_iomete": "What SQL endpoint should BI tools use, and what scaling controls are available?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/compute-clusters/overview",
+    "source_doc_url": "https://docs.databricks.com/aws/en/sql",
     "url_verified": false,
     "category": "bi_access"
   },
@@ -340,9 +340,9 @@
     "basis": "judgment",
     "note": "Ranger row filtering and column masking cover related controls, but full policy and privilege parity is not assumed.",
     "ask_iomete": "Which table, row and column policies are enforced consistently across engines?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-security/overview",
+    "source_doc_url": "https://docs.databricks.com/aws/data-governance/unity-catalog",
+    "url_verified": true,
     "category": "security"
   },
   {
@@ -354,8 +354,8 @@
     "basis": "judgment",
     "note": "Git integration is listed, but Repos-specific editor and branch-management behavior is not established.",
     "ask_iomete": "How do developers connect branches, review changes and deploy workspace assets?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/integrations/git/git-integration",
+    "source_doc_url": "https://docs.databricks.com/aws/en/repos/",
     "url_verified": false,
     "category": "orchestration"
   },
@@ -368,9 +368,9 @@
     "basis": "documented",
     "note": "The IOMETE Compute Cluster exposes a HiveServer2 endpoint on port 10000.",
     "ask_iomete": "Which HiveServer2 clients and authentication modes should we validate?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/driver/hive-jdbc-driver",
+    "source_doc_url": "https://hive.apache.org/docs/latest/user/hiveserver2-overview",
+    "url_verified": true,
     "category": "bi_access"
   },
   {
@@ -382,8 +382,8 @@
     "basis": "documented",
     "note": "An Impala engine or Impala-compatible endpoint is not documented as an IOMETE equivalent.",
     "ask_iomete": "Which IOMETE endpoint should replace our Impala workloads, if any?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture",
+    "source_doc_url": "https://docs.cloudera.com/runtime/latest/impala-overview/topics/impala-overview.html",
     "url_verified": false,
     "category": "bi_access"
   },
@@ -396,8 +396,8 @@
     "basis": "judgment",
     "note": "Both serve catalog-related roles; metastore compatibility, ownership and migration details need confirmation.",
     "ask_iomete": "Can our Hive Metastore be reused, synchronized or migrated?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-catalog/overview",
+    "source_doc_url": "https://hive.apache.org/docs/latest/admin/adminmanual-metastore-administration/",
     "url_verified": false,
     "category": "catalog"
   },
@@ -410,9 +410,9 @@
     "basis": "judgment",
     "note": "Apache Ranger is listed, including row filtering and column masking; plugin versions and policy compatibility need validation.",
     "ask_iomete": "Which Ranger services, plugins and policy types are supported?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/data-security/overview",
+    "source_doc_url": "https://ranger.apache.org/",
+    "url_verified": true,
     "category": "security"
   },
   {
@@ -424,8 +424,8 @@
     "basis": "judgment",
     "note": "A Resource Access Service is listed, but Sentry policy or API compatibility is not documented.",
     "ask_iomete": "How should our Sentry roles and grants be translated to IOMETE access controls?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/ras/resource-bundles",
+    "source_doc_url": "https://cwiki.apache.org/confluence/display/SENTRY/",
     "url_verified": false,
     "category": "security"
   },
@@ -438,8 +438,8 @@
     "basis": "documented",
     "note": "A Kerberos authentication equivalent is not documented among the listed LDAP, SAML and OIDC options.",
     "ask_iomete": "Is Kerberos supported for our clients or required during migration?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/single-sign-on",
+    "source_doc_url": "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SecureMode.html",
     "url_verified": false,
     "category": "security"
   },
@@ -452,8 +452,8 @@
     "basis": "judgment",
     "note": "Both orchestrate workflows, but Oozie coordinators, bundles and action types need explicit migration planning.",
     "ask_iomete": "How should Oozie coordinators, bundles and existing schedules be migrated?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/job-orchestrator",
+    "source_doc_url": "https://oozie.apache.org/",
     "url_verified": false,
     "category": "orchestration"
   },
@@ -466,8 +466,8 @@
     "basis": "judgment",
     "note": "Both provide a SQL authoring surface; Hue feature and saved-query parity is not established.",
     "ask_iomete": "Which SQL Editor workflows are available to replace how our users work in Hue?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/sql-editor/overview",
+    "source_doc_url": "https://github.com/cloudera/hue/blob/master/docs/user-guide/user-guide.md",
     "url_verified": false,
     "category": "bi_access"
   },
@@ -480,8 +480,8 @@
     "basis": "documented",
     "note": "An HDFS-compatible storage service or transparent HDFS data migration is not documented here.",
     "ask_iomete": "What storage targets and data-transfer methods are supported for our HDFS estate?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture#object-storage",
+    "source_doc_url": "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html",
     "url_verified": false,
     "category": "storage_format"
   },
@@ -494,8 +494,8 @@
     "basis": "documented",
     "note": "Hive LLAP daemon or low-latency execution compatibility is not documented as an IOMETE equivalent.",
     "ask_iomete": "What interactive SQL execution pattern should replace our LLAP workloads?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/compute-clusters/overview",
+    "source_doc_url": "https://hive.apache.org/docs/latest/user/configuration-properties/",
     "url_verified": false,
     "category": "compute"
   },
@@ -508,8 +508,8 @@
     "basis": "judgment",
     "note": "Both run Spark workloads, but cluster management, submission and YARN-specific integrations differ.",
     "ask_iomete": "How do we migrate Spark applications and dependencies that currently run on YARN?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
+    "iomete_doc_url": "https://iomete.com/resources/user-guide/spark-jobs/creating-spark-job",
+    "source_doc_url": "https://spark.apache.org/docs/latest/running-on-yarn",
     "url_verified": false,
     "category": "compute"
   },
@@ -522,9 +522,9 @@
     "basis": "documented",
     "note": "Iceberg REST Catalog is an explicitly listed IOMETE concept; confirm client compatibility and catalog operations.",
     "ask_iomete": "Which Iceberg REST Catalog clients, endpoints and authentication modes are supported?",
-    "iomete_doc_url": "TODO_VERIFY",
-    "source_doc_url": "TODO_VERIFY",
-    "url_verified": false,
+    "iomete_doc_url": "https://iomete.com/resources/getting-started/architecture#iceberg-rest-catalog-service",
+    "source_doc_url": "https://iceberg.apache.org/rest-catalog-spec/",
+    "url_verified": true,
     "category": "storage_format"
   }
 ]
